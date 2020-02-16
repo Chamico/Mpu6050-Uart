@@ -32,3 +32,7 @@
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\SYSTEM\usart\usart.h
 ..\obj\main.o: D:\Keil\Arm\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: ..\HARDWARE\MPU6050\mpu6050.h
+..\obj\main.o: ..\HARDWARE\MPU6050\mpuiic.h
+..\obj\main.o: ..\HARDWARE\MPU6050\inv_mpu.h
+..\obj\main.o: ..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h
