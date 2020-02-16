@@ -10,7 +10,7 @@ int main(void)
 	short gyrox,gyroy,gyroz;	//陀螺仪原始数据
 	short temp;					//温度	
 	delay_init();	    //延时函数初始化	  
-	uart_init(9600);
+	uart_init(115200);
 	MPU_Init();
 	while(1)
 	{
