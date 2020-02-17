@@ -17,7 +17,7 @@ int main(void)
 		temp=MPU_Get_Temperature();	//得到温度值
 		MPU_Get_Accelerometer(&aacx,&aacy,&aacz);	//得到加速度传感器数据
 		MPU_Get_Gyroscope(&gyrox,&gyroy,&gyroz);	//得到陀螺仪数据
-		printf("*temp=%d;gyrox=%d;gyroy=%d;gyroz=%d;aacx=%d;aacy=%d;aacz=%d*",temp,gyrox,gyroy,gyroz,aacx,aacy,aacz);
+		printf("*temp=%d;gyrox=%d;gyroy=%d;gyroz=%d;aacx=%d;aacy=%d;aacz=%d;*",temp,gyrox,gyroy,gyroz,aacx,aacy,aacz);
 		delay_ms(50);
 	}
 }
